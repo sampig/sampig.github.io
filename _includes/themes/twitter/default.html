@@ -14,8 +14,13 @@
     <!-- Le styles -->
     <link href="{{ ASSET_PATH }}/css/1.4.0/bootstrap.css" rel="stylesheet">
     <link href="{{ ASSET_PATH }}/css/style.css?body=1" rel="stylesheet" type="text/css" media="all">
+    <link href="{{ ASSET_PATH }}/css/syntax.css" rel="stylesheet">
+
+    <script src="http://code.jquery.com/jquery-1.5.2.min.js"></script>
+    <script src="{{ ASSET_PATH }}/js/bootstrap-dropdown.js"></script>
 
     <!-- Le fav and touch icons -->
+    <link rel="shortcut icon" href="/favicon.ico?" />
   <!-- Update these with your own images
     <link rel="shortcut icon" href="images/favicon.ico">
     <link rel="apple-touch-icon" href="images/apple-touch-icon.png">
@@ -26,7 +31,7 @@
 
   <body>
 
-    <div class="topbar">
+    <div class="topbar" data-dropdown="dropdown">
       <div class="fill">
         <div class="container">
           <a class="brand" href="{{ HOME_PATH }}">{{ site.title }}</a>
@@ -34,6 +39,51 @@
             {% assign pages_list = site.pages %}
             {% assign group = 'navigation' %}
             {% include JB/pages_list %}
+          </ul>
+          <ul class="nav secondary-nav">
+            <li class="dropdown">
+              <a class="dropdown-toggle" href="#">About</a>
+              <ul class="dropdown-menu">
+                {% if site.author.github %}
+                <li>
+                  {% include social-icon/icon-github.html username=site.author.github %}
+                </li>
+                {% endif %}
+                {% if site.author.googleplus %}
+                <li>
+                  {% include social-icon/icon-googleplus.html username=site.author.googleplus %}
+                </li>
+                {% endif %}
+                {% if site.author.twitter %}
+                <li>
+                  {% include social-icon/icon-twitter.html username=site.author.twitter %}
+                </li>
+                {% endif %}
+                {% if site.author.facebook %}
+                <li>
+                  {% include social-icon/icon-facebook.html username=site.author.facebook %}
+                </li>
+                {% endif %}
+                {% if site.author.linkedin %}
+                <li>
+                  {% include social-icon/icon-linkedin.html username=site.author.linkedin %}
+                </li>
+                {% endif %}
+                {% if site.author.feedburner %}
+                <li>
+                  <a href="http://feeds.feedburner.com/{{ site.author.feedburner }}" class="zocial rss icon" target="_blank">
+                    <span class="hidden-desktop">FeedBurner</span>
+                  </a>
+                </li>
+                {% endif %}
+                {% if site.author.about %}
+                <li class="divider"></li>
+                <li>
+                  <a href="{{ BASE_PATH }}/about">About me</a>
+                </li>
+                {% endif %}
+              </ul>
+            </li>
           </ul>
         </div>
       </div>
@@ -46,7 +96,7 @@
       </div>
 
       <footer>
-        <p>&copy; {{ site.author.name }} 2012 
+        <p>&copy; <a href="mailto:{{ site.author.email }}">{{ site.author.name }}</a> 2016 
           with help from <a href="http://jekyllbootstrap.com" target="_blank" title="The Definitive Jekyll Blogging Framework">Jekyll Bootstrap</a>
           and <a href="http://twitter.github.com/bootstrap/" target="_blank">Twitter Bootstrap</a>
         </p>
