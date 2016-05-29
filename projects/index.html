@@ -1,0 +1,33 @@
+---
+layout: page
+title: Projects 
+header: Projects
+group: navigation
+permalink: /projects/
+---
+{% include JB/setup %}
+
+{% for category in site.categories %}
+  {% if category[0] == "projects" %}
+    {% assign projects_list = category[1] %}
+  {% endif %}
+{% endfor %}
+
+{% for project in projects_list %}
+  <li>
+  <div class="col-lg-3 col-md-6 text-center">
+    <div class="project-box">
+      <h3>{{ project.title }}</h3>
+      <p class="date">{{ project.date }}</p>
+      {% assign tags_row = project.tags %}
+      <p class="tag_box">tags: {% include JB/tags_row %}</p>
+      <p class="text-muted">
+          {{ project.abstract | truncatewords: 50 | strip_html | xml_escape }}
+          <a href="{{ project.url | prepend: site.baseurl }}" class="project-read-more">[Read&nbsp;More]</a>
+      </p>
+    </div>
+  </div>
+  </li>
+{% endfor %}
+
+

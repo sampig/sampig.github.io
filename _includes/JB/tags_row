@@ -1,0 +1,14 @@
+{% if site.JB.tags_row.provider == "custom" %}
+  {% include custom/tags_row %}
+{% else %}
+  {% if tags_row.first[0] == null %}
+    {% for tag in tags_row %} 
+    	<span>{{ tag }}&nbsp;&nbsp;</span>
+    {% endfor %}
+  {% else %}
+    {% for tag in tags_row %} 
+    	<span>{{ tag }}&nbsp;&nbsp;</span>
+    {% endfor %}
+  {% endif %}
+{% endif %}
+{% assign tags_row = nil %}

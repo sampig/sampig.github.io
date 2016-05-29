@@ -1,20 +1,27 @@
 # This is the default format. 
 # For more see: http://jekyllrb.com/docs/permalinks/
-permalink: /:categories/:year/:month/:day/:title 
+permalink : /:categories/:year/:month/:day/:title 
+# paginate : 1
+# paginate_path: "/projects/page:num/"
 
-exclude: [".rvmrc", ".rbenv-version", "README.md", "Rakefile", "changelog.md"]
-highlighter: pygments
+exclude : [".rvmrc", ".rbenv-version", "README.md", "Rakefile", "changelog.md"]
+highlighter : rouge  # pygments
 
 # Themes are encouraged to use these universal variables 
 # so be sure to set them if your theme uses them.
 #
 title : Zhuzhu
-tagline: Site Tagline
+tagline : Welcome to Zhuzhu's World!
 author :
   name : Chenfeng ZHU
   email : zhuchenf@gmail.com
+  about : true
   github : sampig
   twitter : zhuchf
+  facebook : zhuchf
+  googleplus : 112889667393707528432
+  linkedin : chenfeng-zhu-a090b223
+  stackoverflow : sampig
 
 # The production_url is only used when full-domain names are needed
 # such as sitemap.txt 
@@ -26,7 +33,7 @@ author :
 #
 production_url : http://sampig.github.io
 
-gems: ["jekyll-sitemap"]
+gems : ["jekyll-sitemap"] #, "jekyll-paginate"]
 
 # All Jekyll-Bootstrap specific configurations are namespaced into this hash
 #
@@ -73,6 +80,7 @@ JB :
   archive_path: /archive.html
   categories_path : /categories.html
   tags_path : /tags.html
+  # projects_path : /projects.html
   atom_path : /atom.xml
   rss_path : /rss.xml
 
@@ -83,7 +91,7 @@ JB :
   comments :
     provider : disqus
     disqus :
-      short_name : jekyllbootstrap
+      short_name : sampig
     livefyre :
       site_id : 123
     intensedebate :
@@ -94,7 +102,7 @@ JB :
       width: 580
       colorscheme: light
     duoshuo :
-      short_name : jekyllbootstrap
+      short_name : sampig
    
   # Settings for analytics helper
   # Set 'provider' to the analytics provider you want to use.

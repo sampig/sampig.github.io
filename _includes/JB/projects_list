@@ -1,0 +1,17 @@
+{% if site.JB.projects_list.provider == "custom" %}
+  {% include custom/projects_list %}
+{% else %}
+  {% for project in projects_list %}
+    {% if project.title != null %}
+      {% if group == null or group == project.group %}
+        {% if page.url == project.url %}
+        <li class="active"><a href="{{ BASE_PATH }}{{project.url}}" class="active">{{project.title}}</a></li>
+        {% else %}
+        <li><a href="{{ BASE_PATH }}{{project.url}}">{{project.title}}</a></li>
+        {% endif %}
+      {% endif %}
+    {% endif %}
+  {% endfor %}
+{% endif %}
+{% assign projects_list = nil %}
+{% assign group = nil %}
