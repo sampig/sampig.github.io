@@ -6,7 +6,7 @@ tags : [scilab]
 ---
 {% include JB/setup %}
 
-This post is to show how to compile Scilab in Ubuntu 16.04 from my experience. (Ignore what is not working on your environment.)
+This post is to show how to compile Scilab with source in Ubuntu 16.04 from my experience. (Ignore what is not working in your environment.)
 
 ### Prequirements
 
