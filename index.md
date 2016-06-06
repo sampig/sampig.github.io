@@ -13,7 +13,8 @@ Here is my world. Take a tour to look around and find something you are interest
   {% for post in site.posts limit:5 %}
     <li>
       <h2>
-        <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+        <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>&nbsp;
+        <small>{{ post.category }}</small>
       </h2>
       <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
       <p>
