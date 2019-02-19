@@ -9,7 +9,7 @@ tags: [Windows Fix]
 {% include JB/setup %}
 
 * [Introduction](#introduction)
-* [Error Code](#error-code)
+* [Error Codes](#error-codes)
   * [Windows XP](#windows-xp)
   * [Windows 7](#windows-7)
 * [Solutions](#solutions)
