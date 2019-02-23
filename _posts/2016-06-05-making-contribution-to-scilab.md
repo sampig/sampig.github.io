@@ -2,7 +2,7 @@
 layout: post
 category : tutorial
 tagline: ""
-tags : [scilab gerrit]
+tags : [Scilab, Gerrit]
 ---
 {% include JB/setup %}
 

@@ -4,7 +4,8 @@ title: "Data Visualization Tools"
 date: 2018-12-12 22:00:00 +0100
 category: tutorial
 tagline: ""
-tags: [data science, data visualization]
+tags: [Data Science, Data Visualization, Python, JavaScript, BI]
+abstract : "Data visualization is an important part for data analysis including raw data exploration and results presentation. I will introduce some tools for data visualization."
 ---
 {% include JB/setup %}
 

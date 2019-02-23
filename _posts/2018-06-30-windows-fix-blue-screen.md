@@ -4,7 +4,7 @@ title: "Windows Fix: Blue Screen of Death"
 date: 2018-06-30 23:00:00 +0100
 category: tutorial
 tagline: ""
-tags: [Windows Fix]
+tags: [Windows]
 ---
 {% include JB/setup %}
 

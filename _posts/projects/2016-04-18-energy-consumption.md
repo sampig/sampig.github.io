@@ -2,7 +2,7 @@
 layout: post
 category : projects
 tagline: ""
-tags : [network, sync, python]
+tags : [Python, SIP, rsync, Cassandra, Android]
 abstract : "The basic idea of this project is to collect the data about energy consumption of different devices as continuously, entirely and timely as possible for future use."
 ---
 {% include JB/setup %}

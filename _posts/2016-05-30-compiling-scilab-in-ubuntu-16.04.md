@@ -2,7 +2,7 @@
 layout: post
 category : tutorial
 tagline: ""
-tags : [scilab]
+tags : [Scilab]
 ---
 {% include JB/setup %}
 
