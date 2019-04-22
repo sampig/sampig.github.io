@@ -44,7 +44,7 @@
           <ul class="nav secondary-nav">
             <li class="dropdown">
               <a class="dropdown-toggle" href="#">About</a>
-              <ul class="dropdown-menu">
+              <ul class="dropdown-menu custom-dropdown-menu">
                 {% if site.author.github %}
                 <li>
                   {% include social-icon/icon-github.html username=site.author.github %}
@@ -68,6 +68,11 @@
                 {% if site.author.linkedin %}
                 <li>
                   {% include social-icon/icon-linkedin.html username=site.author.linkedin %}
+                </li>
+                {% endif %}
+                {% if site.author.researchgate %}
+                <li>
+                  {% include social-icon/icon-researchgate.html username=site.author.researchgate %}
                 </li>
                 {% endif %}
                 {% if site.author.feedburner %}
