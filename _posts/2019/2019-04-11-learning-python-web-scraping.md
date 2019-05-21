@@ -65,6 +65,3 @@ I will describe how to use some of those libraries or tools in detail in the fut
 4. [pyquery](https://pypi.org/project/pyquery/){:target="_blank"}
 5. [webscraping](https://pypi.org/project/webscraping/){:target="_blank"}
 6. [Selenium](https://www.seleniumhq.org/){:target="_blank"}
-
-[](){:target="_blank"}
-[](){:target="_blank"}

@@ -40,8 +40,6 @@ response = urllib.request.urlopen(request, timeout=20)
 content = response.read()
 
 soup = BeautifulSoup(content, "html.parser")
-with open(filename, "wb") as f:
-    f.write(soup)
 ```
 
 Beautiful Soup supports the HTML parser included in Python's standard library, but it also supports a number of third-party Python parsers. One is the [lxml parser](https://lxml.de/){:target="_blank"}. For instance, `BeautifulSoup(markup, "lxml")`.
