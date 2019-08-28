@@ -427,7 +427,7 @@ If you want to know more about Blocking Queue or other related information, find
 
 # References
 
-1. [阿里开发者招聘节 | 2019阿里巴巴技术面试题集锦！参考答案已公布！](https://yq.aliyun.com/articles/699746?utm_content=g_1000054983&scene=126&from=singlemessage){:target="_blank"}
+1. [阿里开发者招聘节 \| 2019阿里巴巴技术面试题集锦！参考答案已公布！](https://yq.aliyun.com/articles/699746?utm_content=g_1000054983&scene=126&from=singlemessage){:target="_blank"}
 2. [LRU Cache Implementation](https://www.geeksforgeeks.org/lru-cache-implementation/){:target="_blank"}
 3. [BlockingQueue (Java Platform SE 8) - Oracle Docs](https://docs.oracle.com/javase/8/docs/api/java/util/concurrent/BlockingQueue.html){:target="_blank"}
 4. [Java BlockingQueue examples By mkyong](https://www.mkyong.com/java/java-blockingqueue-examples/){:target="_blank"}
