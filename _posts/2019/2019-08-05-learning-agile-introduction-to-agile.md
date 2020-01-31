@@ -130,11 +130,3 @@ I will introduce other topics such as _Scrum_, _DevOps_, _CI/CD_ and other tools
 4. [Agile Glossary](https://www.agilealliance.org/agile101/agile-glossary/){:target="_blank"}
 5. [agilepatterns.org](https://sites.google.com/site/agilepatterns/){:target="_blank"}
 6. [Agile software development From Wikipedia](https://en.wikipedia.org/wiki/Agile_software_development){:target="_blank"}
-
-
-
-
-[](){:target="_blank"}
-[](){:target="_blank"}
-[](){:target="_blank"}
-[](){:target="_blank"}
