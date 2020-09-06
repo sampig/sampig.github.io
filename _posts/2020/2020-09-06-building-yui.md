@@ -148,7 +148,7 @@ Assert.areSame(0, Y.Object.size('foo'));
 
 The value should be 3.
 
-### Results_
+### Results
 
 Unfortunately, I cannot build the library successfully yet after all these modifications.
 
@@ -195,14 +195,17 @@ yuidoc . --server [port]
 
 After this, the API documentation in HTML format are generated in the output directory.
 
+![API dirs]({{ site.url }}/assets/images/building_yui/api_dir.png)
+
+![API pages]({{ site.url }}/assets/images/building_yui/api_page.png){:width="600px"}
 
 # Alternatives
 
 Other alternatives online:
 
-1. http://yssl.org/lib/yui/docs/
-2. http://yssl.org/lib/yui/api/
-3. https://web.archive.org/web/20140902233923/http://www.yuilibrary.com/
+1. [http://yssl.org/lib/yui/docs/](http://yssl.org/lib/yui/docs/){:target="_blank"}
+2. [http://yssl.org/lib/yui/api/](http://yssl.org/lib/yui/api/){:target="_blank"}
+3. [https://web.archive.org/web/20140902233923/http://www.yuilibrary.com/](https://web.archive.org/web/20140902233923/http://www.yuilibrary.com/){:target="_blank"}
 
 
 # References
