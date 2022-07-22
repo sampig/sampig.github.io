@@ -222,3 +222,4 @@ If the order of key is important, use TreeMap.
 2. [Java 8 API Specification - Map](https://docs.oracle.com/javase/8/docs/api/java/util/Map.html){:target="_blank"}
 3. [Differences between TreeMap, HashMap and LinkedHashMap in Java](https://www.geeksforgeeks.org/differences-treemap-hashmap-linkedhashmap-java/){:target="_blank"}
 4. [HashMap vs. TreeMap vs. Hashtable vs. LinkedHashMap](https://www.programcreek.com/2013/03/hashmap-vs-treemap-vs-hashtable-vs-linkedhashmap/){:target="_blank"}
+5. [Hashmap in Java - Scaler Topics](https://www.scaler.com/topics/java/hashmap-in-java/){:target="_blank"}
