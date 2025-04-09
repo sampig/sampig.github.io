@@ -5,7 +5,7 @@ tagline: "Get to know more about Chenfeng Zhu (朱辰丰)"
 permalink: /about
 ---
 
-I worked as a *Software Engineer* (Nokia Siemens Networks, IBM) and as a *data scientist* ([Beijing Si-Tech](http://www.si-tech.com.cn){:target="_blank"}).
+I worked as a *Software Engineer* (Nokia Siemens Networks, IBM) and as a *data scientist* ([Beijing Si-Tech](http://www.si-tech.com.cn){:target="_blank"}). Now, I am working for [OCLC](https://www.oclc.org/){:target="_blank"}.
 
 I got my master degree at [TU-Clausthal](http://www.tu-clausthal.de/){:target="_blank"} in Germany.
 
