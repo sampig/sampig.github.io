@@ -115,6 +115,7 @@ JB :
         site_id : 'SITE ID'
     google : 
         tracking_id : 'UA-78449338-1'
+        measurement_id : 'G-XG5WJ84WGQ'
     getclicky :
       site_id : 
     mixpanel :
